@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@lyare components {
+@layer components {
     .header {
-        @apply font-museo_moderno
+        @apply font-museo_moderno font-bold
+    }
+
+    .gradient-text {
+        @apply bg-[linear-gradient(97.46deg,_#FFFFFF_4.79%,_#FFF5D5_25.87%,_#ECFFB9_47.72%,_#CEEF0A_74.55%)] bg-clip-text text-transparent transition-all duration-300 ease-in-out hover:bg-[linear-gradient(97.46deg,_#CEEF0A_4.79%,_#ECFFB9_25.87%,_#FFF5D5_47.72%,_#FFFFFF_74.55%)]
+    }
+
+    .padding {
+        @apply px-4 lg:px-28 xl:px-36 2xl:px-[10%]
+    }
+
+    .hero {
+        @apply pt-12 pb-20 bg-hero-img bg-[center_center] bg-cover bg-no-repeat
     }
 }

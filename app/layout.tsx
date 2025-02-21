@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/header";
 import { Poppins, MuseoModerno } from "next/font/google";
 import "./globals.css";
 
@@ -25,9 +26,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${poppins.className} ${museo_moderno.className} antialiased selection:bg-brand-lime selection:text-brand-black font-poppins`}
+				className={`${poppins.className} ${museo_moderno.className} antialiased text-white selection:bg-brand-lime selection:text-brand-black font-poppins`}
 			>
-				{children}
+				<Header />
+
+				<main>{children}</main>
 			</body>
 		</html>
 	);

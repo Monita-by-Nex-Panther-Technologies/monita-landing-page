@@ -11,7 +11,10 @@ export default {
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],
 				"museo_moderno": ["MuseoModerno", "sans-serif"],
-			},
+            },
+            backgroundImage: {
+                "hero-img": "url('../assets/img/hero-bg.png')"
+            }
 		},
 	},
 	plugins: [],
