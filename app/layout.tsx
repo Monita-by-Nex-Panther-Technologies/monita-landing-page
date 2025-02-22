@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import { Poppins, MuseoModerno } from "next/font/google";
 import "./globals.css";
 
@@ -30,7 +31,9 @@ export default function RootLayout({
 			>
 				<Header />
 
-				<main>{children}</main>
+                <main>{children}</main>
+
+                <Footer />
 			</body>
 		</html>
 	);

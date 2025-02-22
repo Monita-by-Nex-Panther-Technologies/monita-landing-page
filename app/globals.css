@@ -12,10 +12,18 @@
     }
 
     .padding {
-        @apply px-4 lg:px-28 xl:px-36 2xl:px-[10%]
+        @apply px-4 lg:px-20 xl:px-[10%] 2xl:px-[15%]
     }
 
     .hero {
-        @apply pt-12 pb-20 bg-hero-img bg-[center_center] bg-cover bg-no-repeat
+        @apply pt-12 pb-20 bg-hero-img bg-[center_center] bg-cover bg-no-repeat 2xl:pt-16
+    }
+
+    .features {
+        @apply bg-features-img bg-[rgb(10,_10,_10)] bg-[center_center] bg-cover bg-no-repeat p-5 rounded-3xl border border-[#282828] xl:p-8 hover:bg-[rgba(30,_30,_30,_0.8)]
+    }
+
+    .input {
+        @apply border border-white/40 rounded-md placeholder:text-white/40 p-4 bg-inherit
     }
 }

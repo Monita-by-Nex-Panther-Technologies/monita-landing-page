@@ -21,7 +21,7 @@ const HeroSection = () => {
 					</p>
 
 					<div className="space-y-4 mb-6 md:mb-12">
-						<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight">
+						<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight 2xl:text-6xl">
 							Pay Fast. <br />
 							Live Simple.
 						</h1>
@@ -61,9 +61,9 @@ const HeroSection = () => {
 					/>
 
 					<motion.div
-						className="absolute -right-[3%] sm:right-[15%] bottom-[5%] h-full max-sm:w-full"
+						className="absolute -right-[3%] sm:right-[15%] bottom-[4%] h-full max-sm:w-full"
 						animate={{
-							y: [1, -15, 0],
+							y: [1, -18, 0],
 						}}
 						transition={{
 							duration: 2,
@@ -81,7 +81,7 @@ const HeroSection = () => {
 			</div>
 
 			<div className="grid place-content-center mt-12 md:mt-20">
-				<div className="flex items-center gap-12">
+				<div className="flex items-center justify-evenly gap-12">
 					<div className="grid place-content-center gap-2 text-center text-sm">
 						<p>Fully liscened by</p>
 
@@ -92,8 +92,6 @@ const HeroSection = () => {
 							quality={100}
 						/>
 					</div>
-
-                    x
 
 					<div className="grid place-content-center gap-2 text-center text-sm">
 						<p>Backed by</p>
