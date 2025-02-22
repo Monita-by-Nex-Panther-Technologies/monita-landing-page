@@ -23,7 +23,27 @@
         @apply bg-features-img bg-[rgb(10,_10,_10)] bg-[center_center] bg-cover bg-no-repeat p-5 rounded-3xl border border-[#282828] xl:p-8 hover:bg-[rgba(30,_30,_30,_0.8)]
     }
 
+    .download-section {
+        @apply bg-donwload-section-img bg-right-top bg-cover bg-no-repeat px-5 pt-5 rounded-3xl lg:px-10 lg:pt-12 hover:bg-brand-lime/[2%]
+    }
+
+    .compliance {
+        @apply bg-compliance-section-img bg-[center_center] bg-cover bg-no-repeat
+    }
+
     .input {
         @apply border border-white/40 rounded-md placeholder:text-white/40 p-4 bg-inherit
+    }
+
+    .inner-glow {
+        @apply bg-[linear-gradient(to_top,_rgba(206,_239,_10,_0.06),_rgba(206,_239,_10,_0.0007))]
+    }
+
+    .how-it-works-overlay-grid {
+        @apply bg-[linear-gradient(to_right,_rgba(255,_255,_255,_0.01)_1px,_transparent_1px),_linear-gradient(to_bottom,_rgba(255,_255,_255,_0.01)_1px,_transparent_1px)] bg-[length:40px_40px]
+    }
+
+    .how-it-works-bg-blend {
+        @apply bg-[linear-gradient(0deg,_#111111,_#111111),_radial-gradient(106.88%_50%_at_50%_50%,_rgba(255,_255,_255,_0.1)_0%,_#000000_40%,_rgba(0,_0,_0,_0.8)_40%)]
     }
 }

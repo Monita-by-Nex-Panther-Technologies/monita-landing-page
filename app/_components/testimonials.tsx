@@ -187,7 +187,7 @@ const Testimonials = () => {
 					<button
 						onClick={handlePrev}
 						disabled={isBeginning}
-						className={`xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] rounded-full justify-center items-center flex flex-col cursor-pointer ${
+						className={`xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] rounded-full justify-center items-center flex flex-col ${
 							isBeginning ? "bg-gray-300 cursor-not-allowed" : "bg-white"
 						}`}
 						type="button"
@@ -212,7 +212,7 @@ const Testimonials = () => {
 					<button
 						onClick={handleNext}
 						disabled={isEnd}
-						className={`xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] rounded-full justify-center items-center flex flex-col cursor-pointer ${
+						className={`xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] rounded-full justify-center items-center flex flex-col ${
 							isEnd ? "bg-gray-300 cursor-not-allowed" : "bg-white"
 						}`}
 						type="button"

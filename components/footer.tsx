@@ -4,17 +4,9 @@ import Link from "next/link";
 
 const Footer = () => {
 	return (
-		// <footer
-		// 	className="padding space-y-20 py-14 relative overflow-hidden"
-		// 	style={{
-		// 		background:
-		// 			// "linear-gradient(225deg, rgba(187, 213, 35, 0.15) 0%, #000000 35%)",
-		// 			"linear-gradient(225deg, rgba(206 239 8 / 1))",
-		// 	}}
-		// >
-        <footer className="padding space-y-20 py-14" style={{background: "linear-gradient(225deg, rgba(206, 239, 10, 0.04) 0%, rgb(0, 0, 0) 35%)"}}>
+		<footer className="padding space-y-20 py-14 bg-black inner-glow">
 			<div className="grid gap-10 md:flex md:items-start">
-				<div className="space-y-4 md:space-y-8 md:w-1/2 lg:w-1/3">
+				<div className="space-y-4 md:space-y-8 md:w-[45%] lg:w-1/3">
 					<Image
 						src={Logo}
 						// className="w-4/5"
@@ -58,7 +50,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-2 gap-8 md:w-1/2 md:ml-auto lg:w-[55%] lg:flex lg:justify-between">
+				<div className="grid grid-cols-2 gap-8 md:w-[55%] md:ml-auto md:grid-cols-3 lg:w-[55%] lg:flex lg:justify-between">
 					<div className="space-y-8">
 						<h3 className="font-semibold">Home</h3>
 
@@ -127,7 +119,7 @@ const Footer = () => {
 						</div>
 					</div>
 
-					<div className="space-y-8 col-span-2">
+					<div className="space-y-8 col-span-2 md:col-span-1">
 						<h3 className="font-semibold">Legal & Privacy</h3>
 
 						<div className="space-y-4">
