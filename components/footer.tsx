@@ -1,15 +1,19 @@
 import Logo from "@/assets/img/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
+import FacebookIcon from "./svg-icons/facebook-icon";
+import XIcon from "./svg-icons/x-icon";
+import InstagramIcon from "./svg-icons/instagram-icon";
+import LinkedInIcon from "./svg-icons/linkedin-icon";
+import TikTokIcon from "./svg-icons/tiktok-icon";
 
 const Footer = () => {
 	return (
-		<footer className="padding space-y-20 py-14 bg-black inner-glow">
+		<footer className="padding space-y-20 py-14 bg-black footer-glow">
 			<div className="grid gap-10 md:flex md:items-start">
 				<div className="space-y-4 md:space-y-8 md:w-[45%] lg:w-1/3">
 					<Image
 						src={Logo}
-						// className="w-4/5"
 						alt="Monita"
 					/>
 
@@ -22,30 +26,25 @@ const Footer = () => {
 						</p>
 
 						<div className="flex flex-row gap-3.5 mt-6">
-							{/* <img
-							src={images.icon.facebookIcon}
-							alt="Facebook"
-						/>
+							<Link href="">
+								<FacebookIcon />
+							</Link>
 
-						<img
-							src={images.icon.linkedinIcon}
-							alt="LinkedIn"
-						/>
+							<Link href="">
+								<LinkedInIcon />
+							</Link>
 
-						<img
-							src={images.icon.instagramIcon}
-							alt="Instagram"
-						/>
+							<Link href="">
+								<InstagramIcon />
+							</Link>
 
-						<img
-							src={images.icon.tiktockIcon}
-							alt="TikTok"
-						/>
+                            <Link href="">
+								<TikTokIcon />
+							</Link>
 
-						<img
-							src={images.icon.xIcon}
-							alt="X"
-						/> */}
+                            <Link href="">
+								<XIcon />
+							</Link>
 						</div>
 					</div>
 				</div>

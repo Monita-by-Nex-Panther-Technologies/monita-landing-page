@@ -27,149 +27,145 @@ const HowItWorksSection = () => {
 			<div className="">
 				<div className="grid gap-6 lg:w-4/5 lg:mx-auto xl:w-[90%] 2xl:w-9/12 lg:gap-x-16 md:gap-y-0">
 					<div className="grid gap-6 md:grid-cols-2 lg:gap-16 relative">
-                        <div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
-                            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
+						<div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
+							<div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
 
-                            <p className="font-medium">Step 1</p>
+							<p className="font-medium">Step 1</p>
 
-                            <h3 className="text-lg font-medium">
-                                Enter your Information
-                            </h3>
+							<h3 className="text-lg font-medium">
+								Enter your Information
+							</h3>
 
-                            <p>
-                                Provide your email and phone number, then verify
-                                your phone number with an OTP.
-                            </p>
+							<p>
+								Provide your email and phone number, then verify
+								your phone number with an OTP.
+							</p>
 
-                            <div
-                                className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend"
-                            >
+							<div className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend">
+								<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
-                                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
+								<div className="mx-auto relative z-10">
+									<Image
+										src={SignUp}
+										alt="Enter your information"
+										className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
+									/>
+								</div>
 
-                                <div className="mx-auto relative z-10">
-                                    <Image
-                                        src={SignUp}
-                                        alt="Enter your information"
-                                        className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
-                                    />
-                                </div>
+								<div className="absolute inset-0 how-it-works-overlay-grid" />
+							</div>
+						</div>
 
-                                <div
-                                    className="absolute inset-0 how-it-works-overlay-grid"
-                                />
-                            </div>
-                        </div>
+						<Image
+							className="hidden md:block absolute top-1/2 w-4 md:left-[calc(50%-0.5rem)] lg:left-[calc(50%-2rem)] lg:w-16"
+							src={ShortLine}
+							alt=""
+						/>
 
-                        <Image className="hidden md:block absolute top-1/2 w-4 md:left-[calc(50%-0.5rem)] lg:left-[calc(50%-2rem)] lg:w-16" src={ShortLine} alt="" />
+						<div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
+							<div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
 
-                        <div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
-                            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
+							<p className="font-medium">Step 2</p>
 
-                            <p className="font-medium">Step 2</p>
+							<h3 className="text-lg font-medium">
+								Complete Verification
+							</h3>
 
-                            <h3 className="text-lg font-medium">
-                                Complete Verification
-                            </h3>
+							<p>
+								Choose a username and password. Submit your BVN
+								and KYC details, complete face and ID
+								verification, and set up a PIN for account
+								management.
+							</p>
 
-                            <p>
-                                Choose a username and password. Submit your BVN and
-                                KYC details, complete face and ID verification, and
-                                set up a PIN for account management.
-                            </p>
+							<div className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend">
+								<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
-                            <div
-                                className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend"
-                            >
+								<div className="mx-auto relative z-10">
+									<Image
+										src={Verify}
+										alt="Complete verification"
+										className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
+									/>
+								</div>
 
-                                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
+								<div className="absolute inset-0 how-it-works-overlay-grid" />
+							</div>
+						</div>
+					</div>
 
-                                <div className="mx-auto relative z-10">
-                                    <Image
-                                        src={Verify}
-                                        alt="Complete verification"
-                                        className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
-                                    />
-                                </div>
+					<div className="hidden relative w-full md:block h-20">
+						<Image
+							className="hidden md:block absolute h-full md:left-[calc(25%+calc(1.5rem/2))] lg:left-[calc(25%-calc(4rem/2))] md:w-1/2 top-0"
+							src={LongLine}
+							alt=""
+						/>
+					</div>
 
-                                <div
-                                    className="absolute inset-0 how-it-works-overlay-grid"
-                                />
-                            </div>
-                        </div>
-                    </div>
+					<div className="grid gap-6 md:grid-cols-2 lg:gap-16 relative">
+						<div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
+							<div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
 
-                    <div className="hidden relative w-full md:block h-20">
-                        <Image className="hidden md:block absolute h-full md:left-[calc(25%+calc(1.5rem/2))] lg:left-[calc(25%-calc(4rem/2))] md:w-1/2 top-0" src={LongLine} alt="" />
-                    </div>
+							<p className="font-medium">Step 3</p>
 
-                    <div className="grid gap-6 md:grid-cols-2 lg:gap-16 relative">
-                        <div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
-                            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
+							<h3 className="text-lg font-medium">
+								Request Your One Card
+							</h3>
 
-                            <p className="font-medium">Step 3</p>
+							<p>Fund Your Wallet</p>
 
-                            <h3 className="text-lg font-medium">
-                                Request Your One Card
-                            </h3>
+							<div className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend">
+								<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
-                            <p>
-                                Fund Your Wallet
-                            </p>
+								<div className="mx-auto relative z-10">
+									<Image
+										src={FundWallet}
+										alt="Fund your wallet"
+										className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
+									/>
+								</div>
 
-                            <div
-                                className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend"
-                            >
+								<div className="absolute inset-0 how-it-works-overlay-grid" />
+							</div>
+						</div>
 
-                                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
+						<Image
+							className="hidden md:block absolute top-1/2 w-4 md:left-[calc(50%-0.5rem)] lg:left-[calc(50%-2rem)] lg:w-16"
+							src={ShortLine}
+							alt=""
+						/>
 
-                                <div className="mx-auto relative z-10">
-                                    <Image
-                                        src={FundWallet}
-                                        alt="Fund your wallet"
-                                        className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
-                                    />
-                                </div>
+						<div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
+							<div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
 
-                                <div
-                                    className="absolute inset-0 how-it-works-overlay-grid"
-                                />
-                            </div>
-                        </div>
+							<p className="font-medium">Step 4</p>
 
-                        <div className="group flex flex-col place-content-center gap-4 xl:gap-8 bg-[#0E0E0E] p-5 xl:p-8 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full group">
-                            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none inner-glow" />
+							<h3 className="text-lg font-medium">
+								Request Your One Card
+							</h3>
 
-                            <p className="font-medium">Step 4</p>
+							<p>
+								Access the dashboard, navigate to the Card menu,
+								and apply for a One Card supporting both local
+								and international payments with virtual and
+								physical options.
+							</p>
 
-                            <h3 className="text-lg font-medium">
-                                Request Your One Card
-                            </h3>
+							<div className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend">
+								<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
-                            <p>
-                                Access the dashboard, navigate to the Card menu, and apply for a One Card supporting both local and international payments with virtual and physical options.
-                            </p>
+								<div className="mx-auto relative z-10">
+									<Image
+										src={Cards}
+										alt="Request your one card"
+										className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
+									/>
+								</div>
 
-                            <div
-                                className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)] how-it-works-bg-blend"
-                            >
-
-                                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
-
-                                <div className="mx-auto relative z-10">
-                                    <Image
-                                        src={Cards}
-                                        alt="Request your one card"
-                                        className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]"
-                                    />
-                                </div>
-
-                                <div
-                                    className="absolute inset-0 how-it-works-overlay-grid"
-                                />
-                            </div>
-                        </div>
-                    </div>
+								<div className="absolute inset-0 how-it-works-overlay-grid" />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

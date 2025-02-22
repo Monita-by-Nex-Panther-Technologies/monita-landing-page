@@ -42,7 +42,7 @@ const DownloadMobileAppSection = () => {
 						</Link>
 
 						<Link
-							className="transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black bg-brand-lime text-[#010101] rounded-full py-3 inline-block px-5 flex items-center gap-2 hover:gap-4 text-xs md:text-base"
+							className="transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black bg-brand-lime text-[#010101] rounded-full py-3 px-5 flex items-center gap-2 text-xs md:text-base"
 							href=""
 						>
 							<svg

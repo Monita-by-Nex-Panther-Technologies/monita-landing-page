@@ -81,7 +81,7 @@ const Testimonials = () => {
 	};
 
 	return (
-		<section className="space-y-10 bg-black/100 padding py-14">
+		<section className="space-y-10 bg-black testimony-glow padding py-14">
 			<div className="text-center w-[90%] mx-auto lg:w-3/5 space-y-4">
 				<p className="text-brand-lime font-bold text-xs">
 					⚡ TESTIMONIALS

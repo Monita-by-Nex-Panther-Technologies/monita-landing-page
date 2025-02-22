@@ -23,6 +23,10 @@
         @apply bg-features-img bg-[rgb(10,_10,_10)] bg-[center_center] bg-cover bg-no-repeat p-5 rounded-3xl border border-[#282828] xl:p-8 hover:bg-[rgba(30,_30,_30,_0.8)]
     }
 
+    .testimonials {
+        @apply bg-testimonials-section-img bg-[rgb(10,_10,_10)] bg-[center_center] bg-cover bg-no-repeat
+    }
+
     .download-section {
         @apply bg-donwload-section-img bg-right-top bg-cover bg-no-repeat px-5 pt-5 rounded-3xl lg:px-10 lg:pt-12 hover:bg-brand-lime/[2%]
     }
@@ -37,6 +41,14 @@
 
     .inner-glow {
         @apply bg-[linear-gradient(to_top,_rgba(206,_239,_10,_0.06),_rgba(206,_239,_10,_0.0007))]
+    }
+
+    .footer-glow {
+        @apply bg-[linear-gradient(225deg,_rgba(187,_213,_35,_0.15)_0%,_#000000_35%)]
+    }
+
+    .testimony-glow {
+        @apply bg-[linear-gradient(-225deg,_rgba(187,_213,_35,_0.15)_0%,_#000000_35%,_#000000_65%,_rgba(187,_213,_35,_0.15)_100%)]
     }
 
     .how-it-works-overlay-grid {

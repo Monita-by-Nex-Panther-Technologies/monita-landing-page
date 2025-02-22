@@ -17,6 +17,7 @@ export default {
 				"features-img": "url('../assets/img/features-bg.png')",
                 "donwload-section-img": "url('../assets/img/download-section-bg.png')",
                 "compliance-section-img": "url('../assets/img/green-bg.png')",
+                "testimonials-section-img": "url('../assets/img/testimony-bg.png')",
 			},
 		},
 	},

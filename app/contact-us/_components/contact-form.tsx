@@ -4,7 +4,7 @@ import EnvelopeIcon from "@/components/svg-icons/envelope-icon";
 import Link from "next/link";
 
 const ContactForm = () => {
-    return (
+	return (
 		<div className="grid gap-8 md:grid-cols-2 bg-black padding pb-16 items-center lg:px-[10%]">
 			<div className="bg-brand-lime/[4%] bg-features-img bg-[center_center] bg-cover bg-no-repeat space-y-6 rounded-[20px] p-6 grid place-content-center border border-[#4B4A4A]">
 				<h2 className="font-bold text-lg">We’re Here to Help!</h2>
@@ -21,7 +21,6 @@ const ContactForm = () => {
 						href=""
 					>
 						<PhoneIcon />
-
 						+1 (800) 123-4567
 					</Link>
 
@@ -35,7 +34,6 @@ const ContactForm = () => {
 
 					<p
 						className="flex items-center gap-4"
-						n
 					>
 						<LocationIcon />
 						Available 24/7 on our app and website.
