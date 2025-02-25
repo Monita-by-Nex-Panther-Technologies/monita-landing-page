@@ -9,8 +9,8 @@ export default {
 				"brand-black": "#121212",
 			},
 			fontFamily: {
-				poppins: ["Poppins", "sans-serif"],
-				museo_moderno: ["MuseoModerno", "sans-serif"],
+				poppins: ["var(--font-poppins)", "sans-serif"],
+				museo_moderno: ["var(--font-museo_moderno)", "sans-serif"],
 			},
 			backgroundImage: {
 				"hero-img": "url('../assets/img/hero-bg.png')",
