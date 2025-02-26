@@ -1,7 +1,7 @@
-const IOSAndroidLogo = () => {
+const IOSAndroidLogo = ({className= ""}: {className?: string}) => {
     return (
-        <svg
-            className="shrink-0"
+		<svg
+			className={`shrink-0 ${className}`}
 			width="37"
 			height="17"
 			viewBox="0 0 37 17"

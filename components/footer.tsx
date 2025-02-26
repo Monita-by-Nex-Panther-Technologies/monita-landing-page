@@ -63,7 +63,7 @@ const Footer = () => {
 
 							<Link
 								className="block hover:text-brand-lime decoration-wavy underline-offset-4 hover:underline"
-								href=""
+								href="/contact-us"
 							>
 								Contact Us
 							</Link>

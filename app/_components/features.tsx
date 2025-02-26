@@ -31,9 +31,9 @@ const Features = () => {
 
 						<BillPayment />
 
-						<h3 className="font-bold text-lg">Bill Payment</h3>
+						<h3 className="font-bold text-lg xl:text-[2rem]">Bill Payment</h3>
 
-						<p>
+						<p className="xl:text-xl">
 							Buy airtime, data, cable tv, electricity all in one
 							app at the comfort of your phone.
 						</p>
@@ -56,9 +56,9 @@ const Features = () => {
 
 							<ESim />
 
-							<h3 className="font-bold text-lg">eSim</h3>
+							<h3 className="font-bold text-lg xl:text-[2rem]">eSim</h3>
 
-							<p>
+							<p className="xl:text-xl">
 								Monita ensures seamless connectivity with our
 								eSIM technology. Users can activate a digital
 								SIM instantly, enjoy quick setup, and stay
@@ -81,9 +81,9 @@ const Features = () => {
 
 							<OneCard />
 
-							<h3 className="font-bold text-lg">One Card</h3>
+							<h3 className="font-bold text-lg xl:text-[2rem]">One Card</h3>
 
-							<p>
+							<p className="xl:text-xl">
 								A Naira card supporting both local and
 								international payments with virtual and physical
 								options.

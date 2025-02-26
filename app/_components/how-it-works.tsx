@@ -32,7 +32,7 @@ const HowItWorksSection = () => {
 
 							<p className="font-medium">Step 1</p>
 
-							<h3 className="text-lg font-medium">
+							<h3 className="text-lg font-medium xl:text-2xl">
 								Enter your Information
 							</h3>
 
@@ -67,7 +67,7 @@ const HowItWorksSection = () => {
 
 							<p className="font-medium">Step 2</p>
 
-							<h3 className="text-lg font-medium">
+							<h3 className="text-lg font-medium xl:text-2xl">
 								Complete Verification
 							</h3>
 
@@ -108,7 +108,7 @@ const HowItWorksSection = () => {
 
 							<p className="font-medium">Step 3</p>
 
-							<h3 className="text-lg font-medium">
+							<h3 className="text-lg font-medium xl:text-2xl">
 								Request Your One Card
 							</h3>
 
@@ -140,7 +140,7 @@ const HowItWorksSection = () => {
 
 							<p className="font-medium">Step 4</p>
 
-							<h3 className="text-lg font-medium">
+							<h3 className="text-lg font-medium xl:text-2xl">
 								Request Your One Card
 							</h3>
 

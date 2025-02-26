@@ -21,34 +21,37 @@ const HeroSection = () => {
 					</p>
 
 					<div className="space-y-4 mb-6 md:mb-12">
-						<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight 2xl:text-6xl">
+						<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight xl:leading-[6rem] xl:text-[5rem]">
 							Pay Fast. <br />
 							Live Simple.
 						</h1>
 
-						<p className="md:text-2xl text-white flex items-center gap-2">
-							<span>
+						<p className="md:text-2xl text-white">
+							<span className="inline-block w-auto">
 								“Simplify your finances with Monita - secure,
-								fast, and reliable.”
+								fast, and reliable.”{" "}
+								<span className="inline-block">
+									<AnimatedHeroIcon />
+								</span>
 							</span>
-
-							<AnimatedHeroIcon />
 						</p>
 					</div>
 
 					<div className="flex gap-2 md:gap-4">
 						<Link
-							className="bg-white text-brand-black font-medium rounded-full py-2 pl-3 pr-2 relative flex items-center gap-4 transition-all duration-300 ease-in-out hover:gap-6 hover:ring-1 hover:ring-white/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg"
+							className="bg-white text-brand-black font-medium rounded-full py-2 pl-3 pr-2 relative flex items-center gap-4 transition-all duration-300 ease-in-out hover:gap-6 hover:ring-1 hover:ring-white/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
 						>
-							Get Started <DarkCircleArrow />
+							Get Started{" "}
+							<DarkCircleArrow className="size-[3.875rem]" />
 						</Link>
 
 						<Link
-							className="bg-brand-lime text-brand-black font-medium rounded-full py-2 px-3 relative flex items-center gap-2 transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg"
+							className="bg-brand-lime text-brand-black font-medium rounded-full py-2 px-3 relative flex items-center gap-2 transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
 						>
-							<IOSAndroidLogo /> Download the App
+							<IOSAndroidLogo className="xl:size-[3.875rem]" />{" "}
+							Download the App
 						</Link>
 					</div>
 				</div>
@@ -80,13 +83,13 @@ const HeroSection = () => {
 				</div>
 			</div>
 
-			<div className="grid place-content-center mt-12 md:mt-20">
+			<div className="grid place-content-center mt-12 mb-8 md:mt-20 xl:mt-28">
 				<div className="flex items-center justify-evenly gap-12">
 					<div className="grid place-content-center gap-2 text-center text-sm">
 						<p>Fully liscened by</p>
 
 						<Image
-							className="w-32 h-auto"
+							className="w-32 h-auto xl:w-44"
 							src={PCI}
 							alt="Licensed by PCI"
 							quality={100}
@@ -97,7 +100,7 @@ const HeroSection = () => {
 						<p>Backed by</p>
 
 						<Image
-							className="w-32 h-auto"
+							className="w-32 h-auto xl:w-44"
 							src={NDPC}
 							alt="Licensed by NDPC"
 							quality={100}

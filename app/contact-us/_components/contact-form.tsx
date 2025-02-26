@@ -93,7 +93,8 @@ const ContactForm = () => {
 					<textarea
 						className="input"
 						placeholder="Enter your message here"
-						id="message"
+                        id="message"
+                        rows={3}
 					/>
 				</label>
 

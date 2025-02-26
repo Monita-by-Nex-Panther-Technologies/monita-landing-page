@@ -7,7 +7,7 @@ const Header = () => {
 		<header className="flex items-center justify-between gap-4 bg-black/100 pt-6 lg:pt-10 padding">
 			<Link href="/">
 				<Image
-					className="w-4/5"
+					className="w-4/5 xl:w-[13.25rem]"
 					src={Logo}
 					alt="Monita - Pay Fast. Live Simple."
 					quality={100}

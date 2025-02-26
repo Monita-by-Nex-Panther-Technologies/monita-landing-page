@@ -11,7 +11,7 @@ const DownloadMobileAppSection = () => {
 			<div className="download-section grid gap-8 md:grid-cols-2">
 				<div className="space-y-6 pb-5 lg:pb-12 grid place-content-center">
 					<h2 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold header leading-tight">
-						Fast and Reliable Payments with Monita
+						Fast and Reliable Payments With Monita
 					</h2>
 
 					<p className="text-sm md:text-base lg:text-[15px] w-fit lg:w-[460px] font-poppinsRegular text-white leading-relaxed">

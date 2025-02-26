@@ -1,7 +1,9 @@
-const DarkCircleArrow = () => {
+const DarkCircleArrow = ({ className = "" }: { className?: string; }) => {
+    console.log(className);
+
     return (
         <svg
-            className="shrink-0"
+            className={`shrink-0 ${className}`}
 			width="34"
 			height="35"
 			viewBox="0 0 34 35"

@@ -1,7 +1,7 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import Avatar from "@/assets/img/avatar.png";
+import Avatar from "@/assets/img/logo.svg";
 import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -21,36 +21,36 @@ const testimonials: Testimonial[] = [
 	{
 		id: 1,
 		quote: "I like getting the SMS & knowing the job's done. I often refer to it, “hope you get a ping today!” because my product",
-		name: "Mike Torello",
-		position: "CEO of Initech",
+		name: "Mane Olawale",
+		position: "Laravel Developer",
 		avatar: Avatar,
 	},
 	{
 		id: 2,
 		quote: "I like getting the SMS & knowing the job's done.I often refer to it, “hope you get a ping today!” because my product",
-		name: "John Doe",
+		name: "John Okafor",
 		position: "CTO of TechCorp",
 		avatar: Avatar,
 	},
 	{
 		id: 3,
 		quote: "I like getting the SMS & knowing the job's done. I often refer to it, “hope you get a ping today!” because my product",
-		name: "Jane Smith",
+		name: "Sholade Abiodun",
 		position: "Marketing Director at Innovate",
 		avatar: Avatar,
 	},
 	{
 		id: 4,
 		quote: "I like getting the SMS & knowing the job's done. I often refer to it, “hope you get a ping today!” because my product",
-		name: "Alice Johnson",
-		position: "Product Manager at Innovate",
+		name: "Mike Festus",
+		position: "Business Owner",
 		avatar: Avatar,
 	},
 	{
 		id: 5,
 		quote: "I like getting the SMS & knowing the job's done. I often refer to it, “hope you get a ping today!” because my product",
 		name: "LOlly Tech",
-		position: "CEO of Innovate",
+		position: "Frontend Developer",
 		avatar: Avatar,
 	},
 ];
