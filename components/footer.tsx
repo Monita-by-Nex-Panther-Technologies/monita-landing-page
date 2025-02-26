@@ -4,7 +4,6 @@ import Link from "next/link";
 import FacebookIcon from "./svg-icons/facebook-icon";
 import XIcon from "./svg-icons/x-icon";
 import InstagramIcon from "./svg-icons/instagram-icon";
-import LinkedInIcon from "./svg-icons/linkedin-icon";
 import TikTokIcon from "./svg-icons/tiktok-icon";
 
 const Footer = () => {
@@ -26,23 +25,35 @@ const Footer = () => {
 						</p>
 
 						<div className="flex flex-row gap-3.5 mt-6">
-							<Link href="">
+							<Link
+								href="https://www.facebook.com/share/19kn5M2yRZ/?mibextid=wwXIfr"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<FacebookIcon />
 							</Link>
 
-							<Link href="">
-								<LinkedInIcon />
-							</Link>
-
-							<Link href="">
+							<Link
+								href="https://www.instagram.com/usemonitang/profilecard/?igsh=ODNmc2Z1dnVkejBk"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<InstagramIcon />
 							</Link>
 
-                            <Link href="">
+							<Link
+								href="https://www.tiktok.com/@usemonitang?_t=ZM-8sqqsCOfkXN&_r=1"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<TikTokIcon />
 							</Link>
 
-                            <Link href="">
+							<Link
+								href="https://x.com/usemonitang?s=21"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<XIcon />
 							</Link>
 						</div>
