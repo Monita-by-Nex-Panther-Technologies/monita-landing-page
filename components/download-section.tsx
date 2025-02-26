@@ -85,7 +85,7 @@ const DownloadMobileAppSection = () => {
 							repeat: Infinity,
 							ease: "easeInOut",
 						}}
-						className="w-3/5 md:w-full min-[820px]:w-3/5 mx-auto h-full relative"
+						className="w-3/5 md:w-full min-[820px]:w-3/5 mx-auto h-full relative lg:w-[55%] xl:w-[45%]"
 					>
 						<Image
 							src="/download-app-preview.png"

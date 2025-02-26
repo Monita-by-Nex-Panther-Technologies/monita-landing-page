@@ -43,20 +43,20 @@ const HeroSection = () => {
 							href=""
 						>
 							Get Started{" "}
-							<DarkCircleArrow className="size-[3.875rem]" />
+							<DarkCircleArrow className="lg:size-10 xl:size-[3.875rem]" />
 						</Link>
 
 						<Link
 							className="bg-brand-lime text-brand-black font-medium rounded-full py-2 px-3 relative flex items-center gap-2 transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
 						>
-							<IOSAndroidLogo className="xl:size-[3.875rem]" />{" "}
+							<IOSAndroidLogo className="lg:size-10 xl:size-[3.875rem]" />{" "}
 							Download the App
 						</Link>
 					</div>
 				</div>
 
-				<div className="relative">
+				<div className="relative xl:w-4/5 xl:ml-auto">
 					<Image
 						className="w-full h-full"
 						src={Container}

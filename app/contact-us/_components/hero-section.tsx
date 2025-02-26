@@ -12,7 +12,7 @@ const HeroSection = () => {
 				</p>
 
 				<div className="space-y-4 mb-6 md:mb-12">
-					<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight 2xl:text-6xl">
+					<h1 className="header gradient-text text-[2.5rem] leading-[3rem] md:text-5xl md:leading-tight xl:leading-[6rem] xl:text-[5rem]">
 						Contact Us
 					</h1>
 
