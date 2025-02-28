@@ -141,7 +141,7 @@ const Header = () => {
 					</div>
 
 					<form
-						className="space-y-4 mt-4"
+						className="grid gap-4 mt-4"
 						onSubmit={handleSubmit}
 					>
 						<label

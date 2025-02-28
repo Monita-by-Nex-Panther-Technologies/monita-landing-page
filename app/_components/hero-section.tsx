@@ -40,7 +40,7 @@ const HeroSection = () => {
 						</p>
 					</div>
 
-					<div className="flex gap-2 md:gap-4">
+					<div className="flex gap-x-2 gap-y-4 flex-wrap md:gap-4">
 						<Link
 							className="bg-white text-brand-black font-medium rounded-full py-2 pl-3 pr-2 relative flex items-center gap-4 transition-all duration-300 ease-in-out hover:gap-6 hover:ring-1 hover:ring-white/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
