@@ -36,7 +36,7 @@
     }
 
     .input {
-        @apply border border-brand-black/40 rounded-md placeholder:text-brand-black/40 py-3 px-4 bg-inherit focus:outline-none focus:ring-1 focus:ring-brand-lime/50 ring-offset-2 focus:border-brand-lime/50
+        @apply w-full border border-brand-black/40 rounded-md placeholder:text-brand-black/40 py-3 px-4 bg-inherit focus:outline-none focus:ring-1 focus:ring-brand-lime/50 ring-offset-2 focus:border-brand-lime/50
     }
 
     .inner-glow {

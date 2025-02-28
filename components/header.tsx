@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/assets/img/logo.png";
 import toast from "react-hot-toast";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { XCircleIcon } from "lucide-react";
 
 export const isValidEmail = (email: string): boolean => {
@@ -88,6 +88,14 @@ const Header = () => {
 			setLoading(false);
 		}
 	};
+
+    useEffect(() => {
+		if (modalIsActive) {
+			document.querySelector("body")!.style!.overflow = "hidden";
+		} else {
+			document.querySelector("body")!.style!.overflow = "auto";
+		}
+	}, [modalIsActive]);
 
 	return (
 		<>
