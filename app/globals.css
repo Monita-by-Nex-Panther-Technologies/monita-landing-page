@@ -16,7 +16,7 @@
     }
 
     .hero {
-        @apply pt-12 pb-20 bg-hero-img bg-[center_center] bg-cover bg-no-repeat 2xl:pt-16
+        @apply pt-12 pb-20 bg-hero-img bg-[rgb(10,_10,_10)] bg-[center_center] bg-cover bg-no-repeat 2xl:pt-16
     }
 
     .features {
@@ -36,7 +36,7 @@
     }
 
     .input {
-        @apply border border-white/40 rounded-md placeholder:text-white/40 p-4 bg-inherit
+        @apply border border-brand-black/40 rounded-md placeholder:text-brand-black/40 py-3 px-4 bg-inherit focus:outline-none focus:ring-1 focus:ring-brand-lime/50 ring-offset-2 focus:border-brand-lime/50
     }
 
     .inner-glow {

@@ -1,6 +1,4 @@
 const DarkCircleArrow = ({ className = "" }: { className?: string; }) => {
-    console.log(className);
-
     return (
         <svg
             className={`shrink-0 ${className}`}

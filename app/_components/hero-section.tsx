@@ -1,3 +1,5 @@
+"use client";
+
 import AnimatedHeroIcon from "@/components/svg-icons/animated-hero-icon";
 import DarkCircleArrow from "@/components/svg-icons/dark-circle-arrow";
 import HeroLogo from "@/components/svg-icons/hero-logo";
@@ -9,6 +11,7 @@ import PhoneMockup from "@/assets/img/hero-phone-mockup.png";
 import PCI from "@/assets/img/pci.png";
 import NDPC from "@/assets/img/ndpc.png";
 import * as motion from "motion/react-client";
+import { comingSoonText } from "@/utils/coming-soon-toast";
 
 const HeroSection = () => {
 	return (
@@ -29,7 +32,7 @@ const HeroSection = () => {
 						<p className="md:text-2xl text-white">
 							<span className="inline-block w-auto">
 								“Simplify your finances with Monita - secure,
-								fast, and reliable.”{" "}
+								fast, and reliable.”{"   "}
 								<span className="inline-block">
 									<AnimatedHeroIcon />
 								</span>
@@ -41,6 +44,11 @@ const HeroSection = () => {
 						<Link
 							className="bg-white text-brand-black font-medium rounded-full py-2 pl-3 pr-2 relative flex items-center gap-4 transition-all duration-300 ease-in-out hover:gap-6 hover:ring-1 hover:ring-white/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
+                            onClick={(e) => {
+                                e.preventDefault();
+
+                                comingSoonText();
+                            }}
 						>
 							Get Started{" "}
 							<DarkCircleArrow className="lg:size-10 xl:size-[3.875rem]" />
@@ -49,6 +57,11 @@ const HeroSection = () => {
 						<Link
 							className="bg-brand-lime text-brand-black font-medium rounded-full py-2 px-3 relative flex items-center gap-2 transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black text-xs md:text-base lg:text-lg xl:text-[1.375rem]"
 							href=""
+                            onClick={(e) => {
+                                e.preventDefault();
+
+                                comingSoonText();
+                            }}
 						>
 							<IOSAndroidLogo className="lg:size-10 xl:size-[3.875rem]" />{" "}
 							Download the App
@@ -61,6 +74,7 @@ const HeroSection = () => {
 						className="w-full h-full"
 						src={Container}
 						alt=""
+                        priority
 					/>
 
 					<motion.div
@@ -78,6 +92,7 @@ const HeroSection = () => {
 							className="object-contain object-center size-full"
 							src={PhoneMockup}
 							alt=""
+                            priority
 						/>
 					</motion.div>
 				</div>

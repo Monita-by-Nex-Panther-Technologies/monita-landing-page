@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import DownloadMobileAppSection from "@/components/download-section";
+import { Toaster } from "react-hot-toast";
 import { Poppins, MuseoModerno } from "next/font/google";
 import "./globals.css";
 
@@ -13,13 +14,32 @@ const poppins = Poppins({
 
 const museo_moderno = MuseoModerno({
 	subsets: ["latin"],
-    variable: "--font-museo_moderno"
+	variable: "--font-museo_moderno",
 });
 
 export const metadata: Metadata = {
 	title: "Monita - Pay Fast. Live Simple.",
 	description:
-		"Simplify your finances with Monita - secure, fast, and reliable.",
+		"Monita is your trusted partner for seamless mobile money, bill payments, affordable data, Naira cards for international transactions, eSIM, transfers, and prepaid gift cards. Experience secure and hassle-free payments today!",
+	keywords:
+		"mobile money, bill payments, affordable data, Naira card, international payments, eSIM, money transfer, prepaid gift card, secure payments",
+	authors: [{ name: "Monita", url: "https://www.monita.ng" }],
+	openGraph: {
+		title: "Monita - Fast, Secure & Reliable Payments",
+		description:
+			"Experience seamless mobile money, bill payments, affordable data, Naira cards for international transactions, eSIM, transfers, and prepaid gift cards.",
+		images: "https://www.monita.ng/icon.svg",
+		url: "https://www.monita.ng",
+		type: "website",
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Monita - Fast, Secure & Reliable Payments",
+		description:
+			"Your trusted partner for seamless payments, mobile money, and more.",
+		images: "https://www.monita.ng/icon.svg",
+	},
+	verification: { google: "4uzbVVeuR4Cs-uosvUb0IBOIKDUs43sftR3UUiZsm1s" },
 };
 
 export default function RootLayout({
@@ -34,10 +54,13 @@ export default function RootLayout({
 			>
 				<Header />
 
-                <main>{children}</main>
+				<main>{children}</main>
 
-                <DownloadMobileAppSection />
-                <Footer />
+				<DownloadMobileAppSection />
+
+				<Toaster />
+
+				<Footer />
 			</body>
 		</html>
 	);

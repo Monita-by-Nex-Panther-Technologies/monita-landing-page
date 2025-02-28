@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import Notification from "@/assets/img/download-notification.png";
 import ESim from "@/assets/img/download-esim.png";
 import AppPreview from "@/assets/img/download-app-preview.png";
 import * as motion from "motion/react-client";
+import { comingSoonText } from "@/utils/coming-soon-toast";
 
 const DownloadMobileAppSection = () => {
     return (
@@ -26,6 +29,11 @@ const DownloadMobileAppSection = () => {
 						<Link
 							className="transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black bg-brand-lime text-[#010101] rounded-full py-3 px-5 flex items-center gap-2 text-xs md:text-base"
 							href=""
+                            onClick={(e) => {
+                                e.preventDefault();
+
+                                comingSoonText();
+                            }}
 						>
 							<svg
 								width="20"
@@ -44,6 +52,11 @@ const DownloadMobileAppSection = () => {
 						<Link
 							className="transition-all duration-300 ease-in-out hover:gap-4 hover:ring-1 hover:ring-brand-lime/50 ring-offset-2 hover:ring-offset-black bg-brand-lime text-[#010101] rounded-full py-3 px-5 flex items-center gap-2 text-xs md:text-base"
 							href=""
+                            onClick={(e) => {
+                                e.preventDefault();
+
+                                comingSoonText();
+                            }}
 						>
 							<svg
 								width="20"

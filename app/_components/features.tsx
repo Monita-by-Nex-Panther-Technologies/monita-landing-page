@@ -1,6 +1,6 @@
 import BillPayment from "@/components/svg-icons/bill-payment";
 import Image from "next/image";
-import BillPaymentImage from "@/assets/img/bill-payment-img.svg";
+import BillPaymentImage from "@/assets/img/bill-payment-img.png";
 import ESim from "@/components/svg-icons/e-sim";
 import OneCard from "@/components/svg-icons/one-card";
 import VirtualCard from "@/assets/img/index-virtual-card.png";
