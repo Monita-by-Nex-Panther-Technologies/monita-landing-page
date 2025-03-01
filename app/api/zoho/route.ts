@@ -18,6 +18,11 @@ async function getAccessToken() {
 	});
 
 	const data = await response.json();
+	if (!response.ok) {
+		throw new Error(
+			`Failed to get access token: ${data.error || "Unknown error"}`,
+		);
+	}
 	return data.access_token;
 }
 
@@ -29,18 +34,24 @@ export async function POST(req: Request) {
 		const response = await fetch(ZOHO_API_URL, {
 			method: "POST",
 			headers: {
-				"Authorization": `Zoho-oauthtoken ${accessToken}`,
+				"Authorization": `Bearer ${accessToken}`,
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({ data: [{ Last_Name: name, Email: email }] }),
 		});
 
-        const result = await response.json();
+		const result = await response.json();
+		if (!response.ok) {
+			throw new Error(`Zoho API error: ${JSON.stringify(result)}`);
+		}
 
 		return NextResponse.json(result);
-    } catch (error) {
-       return NextResponse.json(
-			{ error: "Failed to create lead", reason: error },
+	} catch (error) {
+		return NextResponse.json(
+			{
+				error: "Failed to create lead",
+				reason: (error as Error).message,
+			},
 			{ status: 500 },
 		);
 	}
