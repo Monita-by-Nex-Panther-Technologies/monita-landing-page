@@ -61,29 +61,12 @@ const Header = () => {
 
                 setModalIsActive(false);
 			} else {
-				toast(
-					"There was an error storing your details. Please try again.",
-					{
-						style: {
-							backgroundColor: "#ceef08",
-							color: "#121212",
-							paddingLeft: "1rem",
-							paddingRight: "1rem",
-						},
-						icon: "🚀",
-					},
+				toast.error(
+					"There was an error storing your details. Please try again."
 				);
 			}
 		} catch (error) {
-			toast(String(error), {
-				style: {
-					backgroundColor: "#ceef08",
-					color: "#121212",
-					paddingLeft: "1rem",
-					paddingRight: "1rem",
-				},
-				icon: "🚀",
-			});
+            toast.error(String(error));
 		} finally {
 			setLoading(false);
 		}
