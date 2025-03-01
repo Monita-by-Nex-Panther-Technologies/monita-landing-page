@@ -5,9 +5,9 @@ const TOKEN_URL = "https://accounts.zoho.com/oauth/v2/token";
 
 async function getAccessToken() {
 	const params = new URLSearchParams({
-		client_id: process.env.ZOHO_CLIENT_ID!,
-		client_secret: process.env.ZOHO_CLIENT_SECRET!,
-		refresh_token: process.env.ZOHO_REFRESH_TOKEN!,
+		client_id: process.env.NEXT_PUBLIC_ZOHO_CLIENT_ID!,
+		client_secret: process.env.NEXT_PUBLIC_ZOHO_CLIENT_SECRET!,
+		refresh_token: process.env.NEXT_PUBLIC_ZOHO_REFRESH_TOKEN!,
 		grant_type: "refresh_token",
 	});
 
