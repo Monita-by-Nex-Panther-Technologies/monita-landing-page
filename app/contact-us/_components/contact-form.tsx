@@ -18,10 +18,10 @@ const ContactForm = () => {
 				<div className="space-y-4">
 					<Link
 						className="flex items-center gap-4"
-						href=""
+						href="tel:+2349037346247"
 					>
 						<PhoneIcon />
-						+1 (800) 123-4567
+						+234 903 734 6247
 					</Link>
 
 					<Link
@@ -32,11 +32,10 @@ const ContactForm = () => {
 						support@monita.com
 					</Link>
 
-					<p
-						className="flex items-center gap-4"
-					>
+					<p className="flex items-center gap-4">
 						<LocationIcon />
-						Available 24/7 on our app and website.
+						Block 10 Monsurat Olayinka Street , Lekki Scheme II
+						Ajah, Lagos State
 					</p>
 				</div>
 
@@ -93,8 +92,8 @@ const ContactForm = () => {
 					<textarea
 						className="input"
 						placeholder="Enter your message here"
-                        id="message"
-                        rows={3}
+						id="message"
+						rows={3}
 					/>
 				</label>
 
