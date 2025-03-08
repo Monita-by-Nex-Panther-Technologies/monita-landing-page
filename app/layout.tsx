@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		title: "Monita - Fast, Secure & Reliable Payments",
 		description:
 			"Experience seamless mobile money, bill payments, affordable data, Naira cards for international transactions, eSIM, transfers, and prepaid gift cards.",
-		images: "https://www.monita.ng/icon.svg",
+		images: "https://www.monita.ng/icon.png",
 		url: "https://www.monita.ng",
 		type: "website",
 	},
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 		title: "Monita - Fast, Secure & Reliable Payments",
 		description:
 			"Your trusted partner for seamless payments, mobile money, and more.",
-		images: "https://www.monita.ng/icon.svg",
+		images: "https://www.monita.ng/icon.png",
 	},
 	verification: { google: "4uzbVVeuR4Cs-uosvUb0IBOIKDUs43sftR3UUiZsm1s" },
 };
